@@ -273,7 +273,7 @@ header #btn2
 #third p 
 {
     width: 591px;
-    height: 71px;
+    height: 80px;
     font-size: 16px;
     line-height: 28px;
     color: #ffffff;
@@ -372,7 +372,8 @@ header #btn2
     height: 250px;
     object-fit: cover;
     margin-top: 20px;
-
+    padding-right: 20px;
+    margin-left: 20px;
 }
 #sixth h3
 {
@@ -428,11 +429,16 @@ header #btn2
 }
 #seventh .col-6
 {
-    width: 200px;
-    height: 200px;
+   
+    
     margin-top: 40px;
 }
-
+#seventh img 
+{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+}
 #seventh h3 
 {
     font-size: 38px;
@@ -457,7 +463,7 @@ header #btn2
 
 #eigths
 {
-    height: 410px;
+    height: 500px;
 }
 
 #eigths form table tr 
@@ -528,8 +534,98 @@ font-family: "Roboto";
 font-weight: 300;
 float:right;
 }
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1200px)
 {
+    *
+    {
+      overflow-x: hidden;
+      
+    }
+    #second 
+    {
+        overflow-y: hidden;
+        height: 950px;
+    }
+    #sec_p
+    {
+        text-align: center;
+        
+      
+    }
+     #services img
+     {
+        overflow-y: hidden;
+     }
+     #div p , #div2 p
+    {
+        height: 80px;
+    }
+    #third img 
+    {
+        width:150px;
+        height: 150px;
+    }
+    #third_div
+    {
+        width:150px;
+        height: 150px;
+    }
+    #fourth 
+    {
+        overflow-y: hidden;
+    }
+    #fifth img 
+{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+ #sixth h3
+ {
+     font-size: 25px;
+ }
+ #sixth img 
+ {
+     padding-top: 50px;
+ }
+ #seventh img 
+{
+    width: 100px;
+    height: 100px;
+    
+}
+#seventh
+{
+    height: auto;
+}
+#seventh p
+{
+    width: auto;
+    height: 80px;
+    overflow-y: hidden;
+}
+#eights 
+{
+    height: 700px;
+    overflow-y: hidden;
+}
+#eigths h2
+{
+    font-size: 20px;
+    overflow: hidden;
+}
+#eights p
+{
+    font-size: 10px;
+}
+
+#eigths input::placeholder
+{
+   font-size:10px;
+}
     header section h3
 {
     font-size:25px ;
@@ -575,7 +671,39 @@ float:right;
     }
     footer
     {
-        height: 500px;
+        height: 580px;
+        overflow-y: hidden;
     }
+    
+    footer p 
+    {
+        height: 70px;
+        text-align: center;
+        margin-left: 60px;
+    }
+    footer h5 
+{
+    font-size: 16px;
+   
+    color: #ffffff;
+    font-family: "Roboto";
+
+   
+}
+.eights
+{
+    width: 500px;
+    display: flex;
+    
+}
+.eights input
+{
+    display: block;
+    margin: auto;
+}
+#footer
+{
+    margin-right: 40px;
+}
 }
 
